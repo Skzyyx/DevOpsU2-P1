@@ -26,8 +26,10 @@ class DescuentoParametrizadoTest {
             "100,  10",
             "499,  10",
             "500,  15",
-            "999,  15"
-            // TODO(alumno, Paso 2): agrega aqui "1000, 20" y "1001, 20"
+"999,  15",
+"1000, 20",
+"1001, 20"
+
     })
     void aplicaElPorcentajeSegunElNivel(int unidades, int porcentajeEsperado) {
         int obtenido = descuento.porcentaje(unidades);
